@@ -20,11 +20,11 @@ class DumpData:
         self.results = []
         connection = None
         cursor_ = None
-        self.user = "stephen"
-        self.password = "testpassword"
-        self.host = "192.168.214.108"
-        self.port = "5432"
-        self.database = "dvdrental"
+        self.user = "user of db"
+        self.password = "password"
+        self.host = "current ip"
+        self.port = "port"
+        self.database = "db name"
         try:
             connection = psycopg2.connect(user=self.user,
                                           password=self.password,
